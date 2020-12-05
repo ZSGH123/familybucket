@@ -7,5 +7,5 @@ package zkong.familybucket.Filter;
  * create: 2020-12-04 17:55
  **/
 public interface IHandlerText {
-    void handle(String text);
+    String doHandle(String text);
 }
