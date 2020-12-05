@@ -7,7 +7,7 @@ public class HandleTextC extends AbstractHandlerText {
     @Override
     public String handle(String text) {
         if( StringUtils.hasText(text)){
-            text= text.replace("C","");
+            text= text.replace("Ckkk","");
         }
         System.out.println("过滤C:"+text);
         return text;
