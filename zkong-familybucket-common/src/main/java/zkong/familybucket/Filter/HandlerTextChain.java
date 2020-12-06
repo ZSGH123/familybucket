@@ -1,13 +1,12 @@
 package zkong.familybucket.Filter;
 
+import zkong.familybucket.Filter.impl.AbstractHandlerText;
 import zkong.familybucket.Filter.impl.HandleTextA;
 import zkong.familybucket.Filter.impl.HandleTextB;
 import zkong.familybucket.Filter.impl.HandleTextC;
 
-import javax.sound.midi.Soundbank;
-
 /**
- * 处理文本链
+ * 处理文本链:使用链表结构实现
  */
 public class HandlerTextChain {
 
